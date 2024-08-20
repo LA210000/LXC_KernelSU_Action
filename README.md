@@ -110,6 +110,12 @@ Fork 本仓库到你的储存库然后按照以下内容编辑 config.env，之�
 
 例如: LLVM=1 LLVM_IAS=1
 
+### 确定编译器版本
+
+adb shell
+
+cat proc/version
+
 ### Enable KernelSU
 
 启用 KernelSU，用于排查内核故障或单独编译内核
